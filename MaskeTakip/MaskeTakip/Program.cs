@@ -10,7 +10,7 @@ class Program
 {
     static void Main(string[] args)
     {
-
+/*
         SelamVer("Engin");
         SelamVer("Ahmet");
         SelamVer("Ayşe");
@@ -89,5 +89,5 @@ class Program
         Console.WriteLine("Toplam : " + sonuc.ToString());
         return sonuc;
     }
-
+*/
 }
