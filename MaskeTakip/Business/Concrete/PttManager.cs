@@ -26,9 +26,9 @@ namespace Business.Concrete
         {
             _applicantService = applicantService;
         }
-        public void GiveMask(Person person)
+        public async void GiveMask(Person person)
         {
-            if(_applicantService.CheckPerson(person))
+            if(await _applicantService.CheckPerson(person))
             {
                 Console.WriteLine(person.FirstName + " için maske verildi.");
             }

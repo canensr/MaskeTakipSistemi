@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Business.Concrete
 {
-    public class PersonManager : IApplicantService
+    public class PersonManager : IApplicantService 
     {
         //encapsulation
         public void ApplyForMask(Person person)
@@ -21,19 +21,14 @@ namespace Business.Concrete
         {
             return null;
         }
-        public bool CheckPerson(Person person)
-        {
+        public async Task<bool>  CheckPerson(Person person)
+        {//mernis kontrolü
+
             KPSPublicSoapClient client = new KPSPublicSoapClient(KPSPublicSoapClient.EndpointConfiguration.KPSPublicSoap);
 
-            // TCKimlikNoDogrulaAsync metodunu çağırırken gerekli parametreleri eksiksiz olarak sağlıyoruz.
-            return client.TCKimlikNoDogrulaAsync(
-                new TCKimlikNoDogrulaRequest(
-                    new TCKimlikNoDogrulaRequestBody(
-                        person.NationalIdentity,
-                        person.FirstName,
-                        person.LastName,
-                        person.DateOfBirthYear)))
-                .Result.Body.TCKimlikNoDogrulaResult;
+            var response = await client.TCKimlikNoDogrulaAsync(person.NationalIdentity, person.FirstName, person.LastName, person.DateOfBirthYear);
+            return response.Body.TCKimlikNoDogrulaResult;
+                
         }
     }
 }

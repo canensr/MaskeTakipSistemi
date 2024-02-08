@@ -3,3 +3,13 @@ C:\Users\ENSAR\OneDrive\Masaüstü\Projects\Projects\enginDemirog\MaskeTakip\Bus
 C:\Users\ENSAR\OneDrive\Masaüstü\Projects\Projects\enginDemirog\MaskeTakip\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
 C:\Users\ENSAR\OneDrive\Masaüstü\Projects\Projects\enginDemirog\MaskeTakip\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
 C:\Users\ENSAR\OneDrive\Masaüstü\Projects\Projects\enginDemirog\MaskeTakip\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\ENSAR\OneDrive\Masaüstü\Projects\Projects\enginDemirog\MaskeTakip\Business\bin\Debug\net6.0\Business.deps.json
+C:\Users\ENSAR\OneDrive\Masaüstü\Projects\Projects\enginDemirog\MaskeTakip\Business\bin\Debug\net6.0\Business.dll
+C:\Users\ENSAR\OneDrive\Masaüstü\Projects\Projects\enginDemirog\MaskeTakip\Business\bin\Debug\net6.0\Business.pdb
+C:\Users\ENSAR\OneDrive\Masaüstü\Projects\Projects\enginDemirog\MaskeTakip\Business\bin\Debug\net6.0\Entities.dll
+C:\Users\ENSAR\OneDrive\Masaüstü\Projects\Projects\enginDemirog\MaskeTakip\Business\bin\Debug\net6.0\Entities.pdb
+C:\Users\ENSAR\OneDrive\Masaüstü\Projects\Projects\enginDemirog\MaskeTakip\Business\obj\Debug\net6.0\Business.csproj.CopyComplete
+C:\Users\ENSAR\OneDrive\Masaüstü\Projects\Projects\enginDemirog\MaskeTakip\Business\obj\Debug\net6.0\Business.dll
+C:\Users\ENSAR\OneDrive\Masaüstü\Projects\Projects\enginDemirog\MaskeTakip\Business\obj\Debug\net6.0\refint\Business.dll
+C:\Users\ENSAR\OneDrive\Masaüstü\Projects\Projects\enginDemirog\MaskeTakip\Business\obj\Debug\net6.0\Business.pdb
+C:\Users\ENSAR\OneDrive\Masaüstü\Projects\Projects\enginDemirog\MaskeTakip\Business\obj\Debug\net6.0\ref\Business.dll

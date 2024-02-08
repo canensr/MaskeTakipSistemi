@@ -39,7 +39,7 @@ namespace MernisServiceReference
             this.Body = Body;
         }
     }
-    
+    //ben yapmadım hazır servis bu hoca çektirdi aynn
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -110,7 +110,7 @@ namespace MernisServiceReference
         {
             this.TCKimlikNoDogrulaResult = TCKimlikNoDogrulaResult;
         }
-    }
+    } 
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
     public interface KPSPublicSoapChannel : MernisServiceReference.KPSPublicSoap, System.ServiceModel.IClientChannel

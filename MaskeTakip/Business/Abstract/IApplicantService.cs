@@ -15,7 +15,7 @@ namespace Business.Abstract
         List<Person> GetList();
 
 
-        bool CheckPerson(Person person);
+        Task<bool> CheckPerson(Person person);
        
     }
 }

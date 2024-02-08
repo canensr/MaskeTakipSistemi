@@ -15,7 +15,7 @@ namespace Business.Concrete
             throw new NotImplementedException();
         }
 
-        public bool CheckPerson(Person person)
+        public Task<bool> CheckPerson(Person person)
         {
             throw new NotImplementedException();
         }
